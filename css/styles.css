@@ -90,7 +90,9 @@ ul {
 }
 
 .nav {
-  margin: 0;
+  margin-left: 93px;
+  margin-top: 0;
+  margin-bottom: 0;
   display: block;
   padding-left: 0;
   align-items: center;
@@ -101,15 +103,16 @@ ul {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.item .link:not(:last-child) {
+
+/* .item .link > li {
+  margin-left: 93px; 
+}*/
+.nav .item:not(:last-child) {
   margin-right: 50px;
 }
-.item .link:first-child {
-  margin-left: 93px;
+.contacthead .item:last-child {
+  margin-left: 32px;
 }
-/* .contacthead .item + .item {
-  margin-left: 50px;
-} */
 .contacthead {
   margin: 0;
   margin-left: auto;
@@ -128,7 +131,6 @@ ul {
 
 .smartphone {
   margin-right: 10px;
-  margin-left: 30px;
 }
 .logo {
   align-self: center;
@@ -221,7 +223,7 @@ ul {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 9px;
+  line-height: 1.9;
   padding: 10px 32px;
   border-radius: 4px;
   display: block;
